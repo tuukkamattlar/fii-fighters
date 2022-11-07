@@ -40,7 +40,7 @@
 }
 .content p {
     margin-top: 0;
-    max-width: 500px;
+    max-width: 700px;
 }
 
 @media only screen and (max-width: 600px) {

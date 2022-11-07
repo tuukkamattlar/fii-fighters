@@ -8,8 +8,16 @@ body {
   --c-grey: #252525;
   --c-red: #EF8585;
   --c-blue: #6EA1D0;
-  --h1-big: calc(20px + 1vw);
+  --h1-big: calc(25px + 1vw);
   --h1-med: calc(15px + 0.8vw);
+}
+p, a {
+    font-size: calc(12px + 0.5vw);
+}
+@media only screen and (max-width: 600px) {
+  p, a {
+    font-size: 16px;
+  }
 }
 
 * {

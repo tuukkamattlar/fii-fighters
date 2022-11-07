@@ -4,6 +4,8 @@ import Footer from '@components/Footer'
 import LandingPage from '@components/Landing'
 import Info from '@components/Info'
 import Contact from '@components/Contact'
+import Fii from '@components/Fii'
+import Feel from '@components/Feel'
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
       <main>
         <LandingPage/>
         <Info/>
+        <Fii/>
+        <Feel/>
         <Contact/>
       </main>
     </div>

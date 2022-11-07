@@ -10,7 +10,7 @@ export default function LandingPage() {
                 <div className={styles.title}>
                     <h1>Fii Fighters</h1>
                     <span></span>
-                    <p>Maailman fyssalaisin bändi</p>
+                    <p>Maailman fyssalaisin bilebändi</p>
                 </div>
             </div>
         </div>

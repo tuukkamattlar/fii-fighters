@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import styles from './styles/contact.module.css'
 import form from './styles/form.module.css'
 
@@ -28,6 +29,9 @@ export default function LandingPage() {
   }
 
 function ContactForm(){
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [message, setMessage] = useState('')
     return(
         <form 
             name="contact"

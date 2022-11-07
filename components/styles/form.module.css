@@ -28,6 +28,7 @@
 }
 
 .form button {
+    cursor: pointer;
     background-color: var(--c-grey);
     border: 2px solid var(--c-blue);
     color: var(--c-cream);
